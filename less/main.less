@@ -1,0 +1,77 @@
+.main{
+    width: 100%;
+    height: 100vh;  
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        header{
+            .flex_between;
+            padding-top: 20px;
+
+            .logo{
+                color: @mainClr2;
+                font-size: 24px;
+                font-weight: 200;
+            }
+
+            menu{
+                .flex_between;
+                width: 542px;
+
+                li{
+                    a{
+                        color: rgb(31, 21, 52);
+                        font-size: 16px;
+                        font-weight: 200;
+                        transition: 0.3s;
+
+                        &:hover{
+                            color: rgb(46, 78, 146);
+                            border-bottom: 3px solid rgb(46, 78, 146);
+                            padding-bottom: 19px;
+                        }
+                    }
+                }
+            }
+        }
+
+        section{
+            margin-top: auto;
+            margin-bottom: auto;
+            .flex_between;
+            article{
+                width: 502px;
+                h1{
+                    color: rgb(60, 86, 123);
+                    font-size: 48px;
+                    font-weight: 200;
+                    margin-bottom: 20px;
+                }
+                p{
+                    color: rgb(147, 193, 249);
+                    font-family: @fontRoboto;
+                    font-size: 19px;
+                    font-weight: 500;
+                    margin-bottom: 50px;
+                }
+                a{
+                    color: rgb(255, 255, 255);
+                    font-family: @font;
+                    font-size: 17px;
+                    font-weight: 200;
+                    border-radius: 55px;
+                    background: rgb(69, 143, 246);
+                    padding: 15px 39px;
+                }
+            }
+            img{
+                width: 550px;
+            }
+        }
+    }
+}

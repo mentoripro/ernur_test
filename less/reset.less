@@ -1,0 +1,47 @@
+@mainClr1: rgb(69, 143, 246);
+@mainClr2: rgb(70, 46, 106);
+@font: "Mulish", sans-serif;
+@fontRoboto: "Roboto", sans-serif;
+
+.mainTitle{
+    color: @mainClr2;
+    font-size: 45px;
+    font-weight: 200;
+}
+
+.btn{
+    color: @mainClr1;
+    font-size: 18px;
+    font-weight: 200;
+    border: 1.4px solid rgb(69, 143, 246);
+    border-radius: 55px;
+    padding: 8px 53px;
+}
+
+.flex_between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: inherit;
+    font-size: 100%;
+    font-weight: 400;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body, textarea, a, button, input{
+    font-family: @font;
+}
